@@ -1,0 +1,122 @@
+<!-- Especifica el tipo de documento. -->
+<!doctype html>
+
+<!-- Podemos ayudar al navegador especificando el idioma en el que está escrita
+     nuestra página web mediante 'lang'.-->
+<html lang='es'>
+
+  <head>
+      <meta charset='utf-8'>
+      <title> GLibrary </title>
+      <link rel="icon" type="image/png" href="imagenes/logo.png">
+      <link rel = "stylesheet" type="text/css" href="valoracion_libro2.css">
+  </head>
+
+
+  <body>
+
+    <header>
+
+      <a href="index2.html" class="img-cabecera">
+          <img src="imagenes/logo.png" width=100% alt="foto-logo">
+      </a>
+
+      <h1 class="titulo-cabecera"> GLibrary </h1>
+
+      <img src="imagenes/foto-usuario-2.jpeg" class="conectado" alt="foto-usuario"/>
+      <p class="conectado"> Daniel Terol Guerrero </p>
+
+      <a href="index.html" id="desconectar"> Desconectar </a>
+
+      <hr>
+
+      <!-- Se crea una barra de navegación. -->
+      <nav>
+
+        <!-- Lista sin enumerar. -->
+        <ul id="listado">
+          <li class="secciones"> <a class="links" href="mislibros.html"> MIS LIBROS </a></li>
+          <li class="secciones"> <a class="links" href="foro.html"> FORO </a> </li>
+          <li class="secciones"> <a class="links" href="datospersonales.html"> MIS DATOS </a> </li>
+          <li class="secciones"> <a class="links" href="recomendaciones.html"> MIS RECOMENDACIONES </a> </li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <br><br><br>
+
+
+    <section>
+      <h2> EL SE&Ntilde;OR DE LOS ANILLOS: EL RETORNO DEL REY </h2>
+      <article>
+        <img id="imagen-libro-alta-2" src="imagenes/libro-alta-2.png" alt="foto-libro-2">
+        <p class="titulo-libro"> <b>TITULO:</b> EL SE&Ntilde;OR DE LOS ANILLOS: EL RETORNO DEL REY</p>
+        <p class="autor-libro"> <b>AUTOR:</b> J.R.R. TOLKIEN </p>
+        <p class="autor-libro"> <b>EDITORIAL:</b> MINOTAURO </p>
+        <p class="autor-libro"> <b>A&Ntilde;O:</b> 1955 </p>
+        <p class="autor-libro"> <b>EDICION:</b> DEBOLSILLO</p>
+
+        <br><br>
+
+
+      <!-- OPINIÓN -->
+        <fieldset>
+          <legend>
+            OPINI&Oacute;N
+          </legend>
+
+
+          <textarea id="opinion-libro" rows="4" cols="80" required></textarea>
+
+        </fieldset>
+
+        <br>
+      <!-- VALORACIÓN -->
+
+        <fieldset>
+          <legend>
+            VALORACI&Oacute;N
+          </legend>
+
+          <p class="clasificacion">
+            <input type="radio" id="valoracion1" name="valoracion"/>
+            <label for="valoracion1"> ★  </label>
+
+            <input type="radio" id="valoracion2" name="valoracion"/>
+            <label for="valoracion2"> ★  </label>
+
+            <input type="radio" id="valoracion3" name="valoracion"/>
+            <label for="valoracion3"> ★  </label>
+
+            <input type="radio" id="valoracion4" name="valoracion"/>
+            <label for="valoracion4"> ★  </label>
+
+            <input type="radio" id="valoracion5" name="valoracion">
+            <label for="valoracion5"> ★  </label>
+          </p>
+
+        </fieldset>
+
+        <br>
+
+        <form action="mislibros.html">
+            <input type = "submit" id="enviar" value = "ENVIAR" />
+        </form>
+      </article>
+
+    </section>
+
+
+    <footer>
+      <hr>
+      <a href="mailto:danielterol@correo.ugr.es"> Contacto </a>
+      -
+      <a href="como_se_hizo.pdf"> C&oacute;mo se hizo </a>
+      <hr>
+    </footer>
+
+
+
+  </body>
+</html>

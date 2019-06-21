@@ -1,0 +1,147 @@
+<!-- Especifica el tipo de documento. -->
+<!doctype html>
+
+<!-- Podemos ayudar al navegador especificando el idioma en el que está escrita
+     nuestra página web mediante 'lang'.-->
+<html lang='es'>
+
+  <head>
+      <meta charset='utf-8'>
+      <title> GLibrary </title>
+      <link rel="icon" type="image/png" href="imagenes/logo.png">
+      <link rel = "stylesheet" type="text/css" href="libro1.css">
+  </head>
+
+
+  <body>
+
+    <header>
+
+      <a href="index2.html" class="img-cabecera">
+          <img src="imagenes/logo.png" width=100% alt="foto-logo">
+      </a>
+
+      <h1 class="titulo-cabecera"> GLibrary </h1>
+
+      <img src="imagenes/foto-usuario-2.jpeg" class="conectado" alt="foto-usuario"/>
+      <p class="conectado"> Daniel Terol Guerrero </p>
+
+      <a href="index.html" id="desconectar"> Desconectar </a>
+
+      <hr>
+
+      <!-- Se crea una barra de navegación. -->
+      <nav>
+
+        <!-- Lista sin enumerar. -->
+        <ul id="listado">
+          <li class="secciones"> <a class="links" href="mislibros.html"> MIS LIBROS </a></li>
+          <li class="secciones"> <a class="links" href="foro.html"> FORO </a> </li>
+          <li class="secciones"> <a class="links" href="datospersonales.html"> MIS DATOS </a> </li>
+          <li class="secciones"> <a class="links" href="recomendaciones.html"> MIS RECOMENDACIONES </a> </li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <section>
+
+      <h2> EL SE&Ntilde;OR DE LOS ANILLOS: LAS DOS TORRES </h2>
+      <article>
+        <img id="imagen-libro-alta-1" src="imagenes/libro-alta-1.png" alt="foto-libro-1">
+        <p class="titulo-libro"> <b>TITULO: </b> EL SE&Ntilde;OR DE LOS ANILLOS: LAS DOS TORRES</p>
+        <p class="autor-libro"> <b>AUTOR:</b> J.R.R. TOLKIEN </p>
+        <p class="autor-libro"> <b>EDITORIAL:</b> MINOTAURO </p>
+        <p class="autor-libro"> <b>A&Ntilde;O:</b> 1954 </p>
+        <p class="autor-libro"> <b>EDICION:</b> DEBOLSILLO</p>
+      </article>
+      <br><br>
+
+      <article>
+
+        <fieldset>
+          <legend>
+            DESCRIPCI&Oacute;N
+          </legend>
+
+          <p> Las dos torres es el segundo volumen de la novela de
+              fantas&iacute;a heroica El Señor de los Anillos, del escritor
+              brit&aacute;nico J. R. R. Tolkien. La Comunidad del Anillo precede
+              a este volumen, y a su vez contin&uacute;a en El retorno del Rey. </p>
+        </fieldset>
+      </article>
+
+      <br>
+
+      <article>
+        VALORACI&Oacute;N MEDIA: 4.8
+      </article>
+
+      <hr>
+
+      <br>
+      <article>
+
+        <fieldset>
+          <legend>
+            OPINIONES
+          </legend>
+
+          <table border="1" width="500">
+
+            <thead>
+              <tr>
+                <th> Muy buen libro, totalmente recomendable. </th>
+                <th> Libro indispensable para leer. </th>
+                <th> Mejor la primera entrega que esta, pero genial.</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <th> Un poco m&aacute;s aburrida que la primera entrega. </th>
+                <th> Genial. </th>
+                <th> Si eres fan de la fantas&iacute;a, incre&iacute;ble. </th>
+
+              </tr>
+
+              <tr>
+                <th> A la espera de la tercera entrega. </th>
+                <th> Ojal&aacute; nunca se acabara esta trilog&iacute;a. </th>
+                <th> Enamorada al 100%. </th>
+              </tr>
+
+              <tr id="anterior-siguiente">
+                <th> <a href="libro1-anterior.html"> Anterior </a> </th>
+                <th id="anterior-siguiente-th"> </th>
+                <th> <a href="libro1-siguiente.html"> Siguiente </a> </th>
+              </tr>
+
+              <tr id="valoracion">
+                <th></th>
+                <th id="anterior-siguiente-th"> <a href="valoracion_libro1.html"> Valorar libro </a> </th>
+                <th></th>
+              </tr>
+
+            </tbody>
+          </table>
+
+
+        </fieldset>
+      </article>
+
+    </section>
+
+
+    <footer>
+      <hr>
+      <a href="mailto:danielterol@correo.ugr.es"> Contacto </a>
+      -
+      <a href="como_se_hizo.pdf"> C&oacute;mo se hizo </a>
+      <hr>
+    </footer>
+
+
+
+  </body>
+</html>

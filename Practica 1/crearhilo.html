@@ -1,0 +1,105 @@
+<!-- Especifica el tipo de documento. -->
+<!doctype html>
+
+<!-- Podemos ayudar al navegador especificando el idioma en el que está escrita
+     nuestra página web mediante 'lang'.-->
+<html lang='es'>
+
+  <head>
+      <meta charset='utf-8'>
+      <title> GLibrary </title>
+      <link rel="icon" type="image/png" href="imagenes/logo.png">
+      <link rel = "stylesheet" type="text/css" href="crearhilo.css">
+  </head>
+
+
+  <body>
+
+    <header>
+
+      <a href="index2.html" class="img-cabecera">
+          <img src="imagenes/logo.png" width=100% alt="Logo">
+      </a>
+
+      <h1 class="titulo-cabecera"> GLibrary </h1>
+      <img src="imagenes/foto-usuario-2.jpeg" class="conectado" alt="foto-usuario"/>
+      <p class="conectado"> Daniel Terol Guerrero </p>
+
+      <a href="index.html" id="desconectar"> Desconectar </a>
+
+      <hr>
+
+      <!-- Se crea una barra de navegación. -->
+      <nav>
+
+        <!-- Lista sin enumerar. -->
+        <ul id="listado">
+          <li class="secciones"> <a class="links" href="mislibros.html"> MIS LIBROS </a></li>
+          <li class="secciones"> <a class="links" href="foro.html"> FORO </a> </li>
+          <li class="secciones"> <a class="links" href="datospersonales.html"> MIS DATOS </a> </li>
+          <li class="secciones"> <a class="links" href="recomendaciones.html"> MIS RECOMENDACIONES </a> </li>
+        </ul>
+      </nav>
+    </header>
+
+    <br><br><br>
+
+    <section id="registro-libro">
+        <h2> CREA TU PROPIO HILO </h2>
+
+        <article>
+
+          <form action="foro.html">
+
+            <!-- DESCRIPCIÓN. -->
+
+            <fieldset>
+
+              <legend>
+                TITULO
+              </legend>
+
+              <label class="anadir-libro" for="descripcion-libro">
+              <textarea id="descripcion-libro" rows="1" cols="75" required></textarea>
+              </label>
+
+            </fieldset>
+
+            <br>
+
+            <!-- OPINIÓN -->
+
+            <fieldset>
+              <legend>
+                OPINI&Oacute;N
+              </legend>
+
+              <label class="anadir-libro" for="opinion-libro">
+              <textarea id="opinion-libro" rows="4" cols="75" required></textarea>
+              </label>
+
+            </fieldset>
+
+            <br>
+            <!-- BOTÓN -->
+
+
+            <input type = "submit"  id="enviar"  value = "Crear tema" />
+          </form>
+        </article>
+
+    </section>
+
+
+    <footer>
+      <hr>
+      <a href="mailto:danielterol@correo.ugr.es"> Contacto </a>
+      -
+      <a href="como_se_hizo.pdf"> C&oacute;mo se hizo </a>
+      <hr>
+    </footer>
+
+
+
+  </body>
+</html>

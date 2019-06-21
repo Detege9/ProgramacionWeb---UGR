@@ -1,0 +1,115 @@
+<!-- Especifica el tipo de documento. -->
+<!doctype html>
+
+<!-- Podemos ayudar al navegador especificando el idioma en el que está escrita
+     nuestra página web mediante 'lang'.-->
+<html lang='es'>
+
+  <head>
+      <meta charset='utf-8'>
+      <title> GLibrary </title>
+      <link rel="icon" type="image/png" href="imagenes/logo.png">
+      <link rel = "stylesheet" type="text/css" href="hilo2.css">
+  </head>
+
+
+  <body>
+
+    <header>
+
+      <a href="index2.html" class="img-cabecera">
+          <img src="imagenes/logo.png" width=100% alt="foto-logo">
+      </a>
+
+      <h1 class="titulo-cabecera"> GLibrary </h1>
+
+      <img src="imagenes/foto-usuario-2.jpeg" class="conectado" alt="foto-usuario"/>
+      <p class="conectado"> Daniel Terol Guerrero </p>
+
+      <a href="index.html" id="desconectar"> Desconectar </a>
+
+      <hr>
+
+      <!-- Se crea una barra de navegación. -->
+      <nav>
+
+        <!-- Lista sin enumerar. -->
+        <ul id="listado">
+          <li class="secciones"> <a class="links" href="mislibros.html"> MIS LIBROS </a></li>
+          <li class="secciones"> <a class="links" href="foro.html"> FORO </a> </li>
+          <li class="secciones"> <a class="links" href="datospersonales.html"> MIS DATOS </a> </li>
+          <li class="secciones"> <a class="links" href="recomendaciones.html"> MIS RECOMENDACIONES </a> </li>
+        </ul>
+      </nav>
+
+    </header>
+
+
+    <section>
+        <h2>  [SPOILER] No entiendo el final de 1964. </h2>
+        <article>
+
+          <table border="3">
+
+            <thead>
+              <tr>
+                <th rowspan="2">
+                  <img src="imagenes/foto-usuario-2.jpeg" id="foto-2" alt="foto-usuario"/>
+                  <p id="usuario-2"> Daniel Terol </p>
+                  <p id="usuario-22"> 2 mensajes </p>
+                </th>
+              </tr>
+
+              <tr>
+                <th>
+                    <textarea class="foro" rows="10" cols="80" readonly>No entiendo el final. Es decir, el protagonista se pasa todo el libro evitando el control del Gran Hermano y al final acaba cediendo a su afirmación de "2 + 2 son 5" ¿Por qué lo dice?
+                  </textarea>
+                </th>
+              </tr>
+
+            </thead>
+
+          </table>
+
+
+
+
+        </article>
+
+        <br>
+
+
+      <!-- RESPONDER -->
+      <article>
+
+        <fieldset>
+          <legend>
+            ¿QUIERES RESPONDER?
+          </legend>
+
+          <img src="imagenes/chica-respondiendo.jpg" id="chica-respondiendo" alt="foto-respondiendo"/>
+
+          <form>
+            <textarea id="respuesta-foro" rows="8" cols="80" required></textarea>
+            <input type="submit" id="enviar" value="Enviar respuesta"/>
+          </form>
+        </fieldset>
+      </article>
+
+
+
+    </section>
+
+
+    <footer>
+      <hr>
+      <a href="mailto:danielterol@correo.ugr.es"> Contacto </a>
+      -
+      <a href="como_se_hizo.pdf"> C&oacute;mo se hizo </a>
+      <hr>
+    </footer>
+
+
+
+  </body>
+</html>

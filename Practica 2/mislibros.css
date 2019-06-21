@@ -1,0 +1,348 @@
+@media (min-width: 761px){
+
+  header {
+
+    background-color: LightBlue;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .img-cabecera{
+    float:left;
+    display: inline-block;
+    width: 10%;
+    margin-left: 5px;
+    padding-left: 10%;
+    padding-top: 1.5%;
+  }
+
+  .titulo-cabecera {
+    display: inline-block;
+    padding-top:3.2%;
+    width: 30%;
+    padding-left: 24%;
+    font-style:italic;
+    font-size:40px;
+    vertical-align:95%;
+    padding-bottom:1%;
+  }
+
+  .conectado {
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-bottom: 0;
+    position: absolute;
+
+  }
+
+  img.conectado{
+    width: 70px;
+    margin-left: 10%;
+    border: 2px solid black;
+  }
+
+  p.conectado{
+
+    padding-top: 80px;
+    padding-left: 60px;
+  }
+
+  #desconectar {
+    display: inline-block;
+    padding-left: 18%;
+  }
+
+  footer {
+
+    clear: left;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    padding-top:0.5%;
+  }
+
+  footer a{
+
+    text-decoration: none;
+  }
+
+  article {
+
+    margin-left: 90px;
+    margin-right:90px;
+    border: 2px solid;
+    padding-bottom:5px;
+  }
+
+  #nohaylibro{
+    border-style: none;
+  }
+
+  #nolibro{
+    text-align:center;
+  }
+
+  #libro1 {
+    padding-bottom:17px;
+  }
+
+  .libro2-3{
+    padding-bottom:1px;
+  }
+
+  article img {
+    display:inline-block;
+    float:left;
+    width:19.5%;
+    padding-left:20%;
+    padding-right:5%;
+  }
+
+  .titulo-libro{
+    display:block;
+    padding-top:5%;
+    font-weight: bold;
+  }
+
+  .autor-libro{
+    display:block;
+    font-weight: bold;
+    padding-bottom:2.2%;
+  }
+
+  #autor-libro-1 {
+    padding-bottom:6%;
+  }
+
+
+  section h2{
+    clear:left;
+    text-align:center;
+    text-decoration: underline;
+  }
+
+  #mejoreslibros{
+
+    border-right: 3px solid;
+    width:49%;
+  }
+
+
+  section {
+    display: inline-block;
+    width: 47.3%;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    padding-bottom:10px;
+
+  }
+
+  #ultimos-libros-anadidos{
+    padding-left:5px;
+    padding-top:5px;
+
+  }
+
+  #agregar-libro{
+    padding-left:75px;
+  }
+
+  /* BARRA DE NAVEGACIÓN */
+  #listado{
+    list-style:none;
+  }
+
+  /* Cada ítem de la lista la ponemos a la izquierda */
+  li.secciones {
+    float: left;
+    font-size: 18px;
+  }
+
+  a.links {
+    display: block;
+    padding: 10px 20px 10px 20px;
+    color: black;
+    text-decoration: none; /*Al ser un enlace, aparece subrayado y con esto lo quitamos */
+  }
+
+  /*hover es para cuando se pase el ratón por encima */
+  nav ul li:hover {
+    background-color: LightBlue;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MÓVIL */
+
+@media (max-width: 480px){
+
+  header {
+
+    background-color: LightBlue;
+    margin: 5px 5px 5px 5px;
+  }
+
+  .img-cabecera{
+    float:left;
+    display: inline-block;
+    width: 17%;
+    margin-left: 30px;
+    padding-left:5px;
+    margin-top: 20px;
+  }
+
+  .titulo-cabecera {
+    display: inline-block;
+    padding-top:3.2%;
+    width: 20%;
+    padding-left: 40px;
+    font-style:italic;
+    font-size:35px;
+    vertical-align:50%;
+
+  }
+
+  .conectado {
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-bottom: 0;
+    position: absolute;
+
+  }
+
+  img.conectado{
+    width: 50px;
+    margin-left:100px;
+    margin-top:25px;
+    border:2px solid;
+  }
+
+  p.conectado{
+    font-size:13px;
+    padding-top: 70px;
+    padding-left: 55px;
+    margin-bottom:5px;
+  }
+
+  #desconectar {
+    display: block;
+    padding-left:365px;
+    font-size:13px;
+  }
+
+  footer {
+
+    clear: left;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    padding-top:0.5%;
+  }
+
+  footer a{
+
+    text-decoration: none;
+  }
+
+  article {
+
+    margin-left: 35px;
+    margin-right:35px;
+    border: 2px solid;
+    padding-bottom:13px;
+  }
+
+  #libro1 {
+    padding-bottom:30px;
+  }
+
+  article img {
+    display:inline-block;
+    float:left;
+    width:25.3%;
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+  .titulo-libro{
+    display:block;
+    padding-top:5%;
+    font-weight: bold;
+  }
+
+  .autor-libro{
+    display:block;
+    font-weight: bold;
+    padding-bottom:2.2%;
+  }
+
+  #autor-libro-1 {
+    padding-bottom:6%;
+  }
+
+
+  section h2{
+    clear:left;
+    text-align:center;
+    text-decoration: underline;
+  }
+
+  section {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    margin: 5px 5px 5px 5px;
+
+
+  }
+
+  #ultimos-libros-anadidos{
+    padding-top:5px;
+
+  }
+
+  #agregar-libro{
+    padding-left:35px;
+  }
+
+  /* BARRA DE NAVEGACIÓN */
+  ul#listado{
+
+    list-style:none;
+
+  }
+
+  /* Cada ítem de la lista la ponemos a la izquierda */
+  li.secciones {
+    float: left;
+    font-size: 15px;
+    width:100%;
+  }
+
+  a.links {
+
+    display: block;
+    padding: 10px 10px 10px 20px;
+    color: black;
+    text-decoration: none; /*Al ser un enlace, aparece subrayado y con esto lo quitamos */
+  }
+
+  /*hover es para cuando se pase el ratón por encima */
+  nav ul li:hover {
+    background-color: LightBlue;
+  }
+
+}

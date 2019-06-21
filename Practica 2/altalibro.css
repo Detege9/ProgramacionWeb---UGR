@@ -1,0 +1,191 @@
+header {
+
+  background-color: LightBlue;
+  margin: 10px 10px 10px 10px;
+}
+
+.img-cabecera{
+  float:left;
+  display: inline-block;
+  width: 10%;
+  margin-left: 5px;
+  padding-left: 10%;
+  padding-top: 1.5%;
+}
+
+.titulo-cabecera {
+  display: inline-block;
+  padding-top:3.2%;
+  width: 30%;
+  padding-left: 24%;
+  font-style:italic;
+  font-size:40px;
+  vertical-align:95%;
+  padding-bottom:1%;
+}
+
+.conectado {
+  display: inline-block;
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-bottom: 0;
+  position: absolute;
+
+}
+
+img.conectado{
+  width: 70px;
+  margin-left: 10%;
+  border: 2px solid black;
+}
+
+p.conectado{
+
+  padding-top: 80px;
+  padding-left: 60px;
+}
+
+#desconectar {
+  display: inline-block;
+  padding-left: 18%;
+}
+
+footer {
+
+  clear: left;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  padding-top:0.5%;
+}
+
+footer a{
+
+  text-decoration: none;
+}
+
+
+article {
+  padding: 10px 10px 10px 10px;
+
+}
+
+
+section h2{
+  clear:left;
+  text-align:center;
+  text-decoration: underline;
+}
+
+
+section {
+  display: inline-block;
+  width: 55%;
+  float: left;
+  margin: 0px 10px 10px 325px;
+  padding-bottom:10px;
+
+}
+
+label.anadir-libro {
+  padding-left:50px;
+  width: 90px;
+  padding-top: 5px;
+  display: inline-block;
+}
+
+label.anadir-libro2 {
+  padding-left:80px;
+  width: 90px;
+  padding-top: 6px;
+  display: inline-block;
+}
+
+fieldset{
+  margin: 0px 20px 0px 20px;.
+  border: 1px solid black;
+  border-radius:10px;
+}
+
+textarea{
+  resize:none;
+}
+
+#chica-anadir{
+  display:inline-block;
+  float:left;
+  padding-left:70px;
+  padding-top:50px;
+  width:15%
+}
+
+
+#valoracion1{
+  font-size:30px;
+}
+
+#enviar{
+  margin-left:305px;
+  background: #0080ff;
+  text-decoration-color: black;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+
+}
+
+
+/* ESTRELLAS VALORACIÓN */
+
+input[type="radio"] {
+  display: none;
+}
+
+.estrella {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  text-align:center;
+  font-size:25px;
+}
+
+/* Se iluminan todas las label que estén precedidas por la label seleccionada.
+   Es decir, si tenemos el ratón encima de la cuarta estrella, se iluminan el resto. */
+.estrella:hover ~ label {
+  color: orange;
+}
+
+/* La misma idea que la anterior pero marcando todas las label con checked.*/
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+
+/* BARRA DE NAVEGACIÓN */
+ul#listado{
+
+  list-style:none;
+
+}
+
+/* Cada ítem de la lista la ponemos a la izquierda */
+li.secciones {
+  float: left;
+  font-size: 18px;
+}
+
+a.links {
+
+  display: block;
+  padding: 10px 20px 10px 20px;
+  color: black;
+  text-decoration: none; /*Al ser un enlace, aparece subrayado y con esto lo quitamos */
+}
+
+/*hover es para cuando se pase el ratón por encima */
+nav ul li:hover {
+  background-color: LightBlue;
+}

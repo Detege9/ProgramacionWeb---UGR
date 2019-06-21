@@ -1,0 +1,128 @@
+header {
+
+  background-color: LightBlue;
+  margin: 10px 10px 10px 10px;
+}
+
+.img-cabecera{
+  float:left;
+  display: inline-block;
+  width: 10%;
+  margin-left: 5px;
+  padding-left: 10%;
+  padding-top: 1.5%;
+}
+
+.titulo-cabecera {
+
+  display: inline-block;
+  width: 30%;
+  padding-left: 24%;
+  font-style:italic;
+  font-size:40px;
+  vertical-align:95%;
+  padding-bottom:1%;
+}
+
+.boton-cabecera {
+
+  display: inline-block;
+  padding-top: 2%;
+  padding-left:6%;
+  margin-bottom: 0;
+}
+
+#registrate{
+
+  padding-left:3.5%;
+
+}
+
+#login {
+  /* Los dos padding es para que el botón de login sea un pelín más pequeño */
+  padding-bottom:0;
+  padding-top:0;
+
+  /*Estos margin es para cuadrarlo con la caja de texto*/
+  margin-left:17%;
+  margin-top:3%;
+  margin-bottom:2%;
+
+}
+
+footer {
+
+  clear: left;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  padding-top:0.5%;
+}
+
+footer a{
+
+  text-decoration: none;
+}
+
+
+article {
+
+  margin-left: 90px;
+  margin-right:90px;
+
+  border: 2px solid;
+
+}
+article img {
+  display:inline-block;
+  float:left;
+  width:19.41%;
+  padding-left:20%;
+  padding-right:5%;
+}
+
+.titulo-libro{
+  display:block;
+  padding-top:5%;
+  font-weight: bold;
+}
+
+.autor-libro{
+  display:block;
+  font-weight: bold;
+  padding-bottom:2.2%;
+}
+
+#autor-libro-1 {
+  padding-bottom:6%;
+}
+
+
+section h2{
+  clear:left;
+  text-align:center;
+  text-decoration: underline;
+}
+
+#mejoreslibros{
+
+  border-left: 3px solid;
+}
+
+#imagen-relacionada{
+  padding-left:20%;
+  padding-top:15%;
+}
+section {
+  display: inline-block;
+  width: 48.3%;
+  float: left;
+  margin: 10px 10px 10px 10px;
+  padding-bottom:10px;
+
+}
+
+body{
+
+}
